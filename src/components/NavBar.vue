@@ -14,3 +14,18 @@
     name: 'NavBar'
   }
 </script>
+
+<style lang="scss" scoped>
+nav, ul {
+  display: flex;
+}
+
+nav {
+  justify-content: center;
+}
+
+ul {
+  justify-content: space-between;
+  min-width: 530px;
+}
+</style>
