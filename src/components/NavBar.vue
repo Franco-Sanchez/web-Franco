@@ -22,10 +22,16 @@ nav, ul {
 
 nav {
   justify-content: center;
+  padding-top: 46px;
 }
 
 ul {
   justify-content: space-between;
   min-width: 530px;
+}
+
+a {
+  color: var(--black);
+  font-weight: 500;
 }
 </style>
