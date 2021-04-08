@@ -1,7 +1,7 @@
 <template>
   <NavBar />
-  <Footer />
   <router-view />
+  <Footer />
 </template>
 
 <script>
@@ -24,6 +24,7 @@ export default {
 
 :root {
   --green-light: #51edc6;
+  --green-light2: #11ECB5;
   --white: #fff;
   --black: #000;
   --black-light: #3f3629;
