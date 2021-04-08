@@ -39,9 +39,14 @@ export default {
 }
 
 body {
-  margin: 0 auto;
-  min-width: 100vw;
   max-width: 1440px;
+  margin: 0 auto;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  min-width: 100vw;
   min-height: 100vh;
   background-image: url("./assets/background_project.svg");
   background-position: center;

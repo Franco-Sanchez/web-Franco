@@ -14,9 +14,7 @@
 footer {
   display: flex;
   justify-content: center;
-  position: fixed;
   width: 100%;
-  bottom: 0;
   padding-bottom: 17px;
 }
 

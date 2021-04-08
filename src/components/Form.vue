@@ -37,7 +37,7 @@ form, .form-field {
 }
 
 form {
-    max-width: 595px;
+    width: 595px;
 }
 
 button {
